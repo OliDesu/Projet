@@ -1,3 +1,6 @@
+Journal de bord
+
+
 Séance 20 janvier : Introduction à notre projet 
 
 Séance 27 janvier : Apprentissage sur android studio 
@@ -15,6 +18,7 @@ Séance 03 mars : Implémentation du dessin des différentes positions du tracki
 Séance 09 mars : Soutenance mi-parcourt
 
 Séance 16 mars : Ajout d'une activité map avec une API Google et une APK mapbox + ajout d'un tracé plus précis en bleu
+		 Check des permissions pour vérifier si la localisation et internet sont activés
 
 Séance 23 mars :
 

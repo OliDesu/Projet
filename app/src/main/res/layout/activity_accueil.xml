@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".Accueil">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="239dp"
+        android:layout_height="54dp"
+        android:src="@drawable/loggpx"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="37dp" />
+
+    <ImageButton
+        android:id="@+id/telechargement"
+        android:layout_width="41dp"
+        android:layout_height="32dp"
+        android:src="@drawable/telechargement"
+        tools:layout_editor_absoluteX="354dp"
+        tools:layout_editor_absoluteY="183dp" />
+
+    <ImageButton
+        android:id="@+id/synchronisation"
+        android:layout_width="48dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="111dp"
+        android:src="@drawable/synchronisation"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:layout_editor_absoluteX="306dp" />
+
+    <ImageButton
+        android:id="@+id/croix"
+        android:layout_width="25dp"
+        android:layout_height="27dp"
+        android:src="@drawable/croix"
+        tools:layout_editor_absoluteX="361dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Menu"
+        tools:layout_editor_absoluteX="299dp"
+        tools:layout_editor_absoluteY="54dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Titre de l'enregistrement"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="147dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date de début - durée - distance - dénivelé"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
