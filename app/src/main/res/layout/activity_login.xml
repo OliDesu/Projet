@@ -4,11 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_gravity="center"
     android:background="@drawable/noir"
-
-    android:orientation="vertical"
     tools:context=".LoginActivity">
+
 
     <EditText
         android:id="@+id/password"
@@ -70,4 +68,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/loggpx" />
+=======
+>>>>>>> parent of c1916f3... Interface login finie
 </androidx.constraintlayout.widget.ConstraintLayout>
