@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MapGoogle</string>
+    <string name="mapbox_access_token">pk.eyJ1Ijoib3RiYXoiLCJhIjoiY2s2Z2ZibTVzMDNtdzNucDgzeG84dW03NSJ9.AMJ_2vtyGExxjRDzoDfDsw</string>
+</resources>
