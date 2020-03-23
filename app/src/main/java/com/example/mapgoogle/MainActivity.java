@@ -51,6 +51,7 @@ public class MainActivity extends AppCompatActivity implements LocationListener 
         setContentView(R.layout.activity_main);
         mapView = (MapView) findViewById(R.id.mapView);
         mapView.onCreate(savedInstanceState);
+
         button = findViewById(R.id.button);
         button.setOnClickListener(new View.OnClickListener() {
             @Override

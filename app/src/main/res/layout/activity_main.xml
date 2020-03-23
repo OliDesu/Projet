@@ -16,9 +16,9 @@
 
         <Button
             android:id="@+id/button"
-            android:layout_width="195dp"
-            android:layout_height="134dp"
-            android:text="log in" />
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Log in" />
     </com.mapbox.mapboxsdk.maps.MapView>
 
 </RelativeLayout>
